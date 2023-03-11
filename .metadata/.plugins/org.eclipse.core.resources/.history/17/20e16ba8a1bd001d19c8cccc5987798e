@@ -1,0 +1,15 @@
+package listDemo;
+import java.util.HashMap;
+import java.util.Iterator;
+public class TestHashMap {
+	public static void main(String[] args) {
+		
+		HashMap<String,String> countryCurr= new HashMap<>();
+		countryCurr.put("IND","rupee");
+		countryCurr.put("USA","Dollar");
+		countryCurr.put("UK","Pound");
+
+		System.out.println(countryCurr);
+	}
+
+}

@@ -1,0 +1,15 @@
+package oopsday3;
+
+public interface Math {
+	
+	public abstract int factorial(int n);
+	public abstract int primeornot(int n);
+	public abstract int add(int n , int m);
+	public abstract int sub(int n, int m);
+	public abstract int mul(int n, int m);
+	public abstract int div(int n, int m);
+	public abstract int pow(int n, int m);
+	public abstract int fib(int n);
+	public abstract int oddoreven(int n);
+
+}

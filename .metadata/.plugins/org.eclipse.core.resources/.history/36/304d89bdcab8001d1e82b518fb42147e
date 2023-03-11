@@ -1,0 +1,32 @@
+package oopsday4.inheritance;
+
+public class CompanyHR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp1= new Employee("john doe","male",101,24,"research",40000);
+		System.out.println(emp1);
+		
+		Employee emp2= new Employee("jon doe","female",102,20,"accounting",35000);
+		System.out.println(emp2);
+		
+		Employee emp3= new Employee("jonu doe","male",103,30,"sales ",12345);
+		System.out.println(emp3);
+		
+		Employee emp4= new Employee("jonyn doe","male",104,34,"researcher",40000);
+		System.out.println(emp4);
+		
+		Employee emp5= new Employee("jonyyn doe","female",105,34,"researcher",40000);
+		System.out.println(emp5);
+
+		if(emp1.equals(emp5)) {
+			System.out.println("the objects are same ");
+			
+		}
+		else {
+			System.out.println("different");
+		}
+	}	
+	
+
+}

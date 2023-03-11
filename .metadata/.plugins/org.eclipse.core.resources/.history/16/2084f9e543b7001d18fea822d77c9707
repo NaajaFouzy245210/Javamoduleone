@@ -1,0 +1,7 @@
+package oopsday2;
+
+public interface ShapeI {
+	public abstract void area();
+	public abstract void();
+
+}

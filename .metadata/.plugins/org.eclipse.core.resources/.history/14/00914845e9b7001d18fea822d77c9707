@@ -1,0 +1,19 @@
+package oopsday3;
+
+public class mathq {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Math math = new MathImp(4,7);
+		math.factorial(5);
+		math.add(3, 70);
+		math.sub(10, 04);
+		math.mul(23, 34);
+		math.div(20, 2);
+		math.oddoreven(23);
+		
+		System.out.println(math);
+
+	}
+
+}

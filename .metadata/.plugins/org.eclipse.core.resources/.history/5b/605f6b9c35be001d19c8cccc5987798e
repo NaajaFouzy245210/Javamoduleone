@@ -1,0 +1,12 @@
+import java.util.LinkedList;
+public class TestLinkedList {
+	public static void main(String[] args) {
+		LinkedList<String> list = new LinkedList<>();
+		list.add("marker");
+		list.add("pencil");
+		list.add("book");
+		list.add("eraser");
+		list.add("sharpner");
+	}
+
+}

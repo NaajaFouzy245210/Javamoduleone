@@ -1,0 +1,10 @@
+package oopsday3.overloading;
+
+public class TestMath {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}

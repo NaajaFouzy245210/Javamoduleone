@@ -1,0 +1,35 @@
+package listDemo;
+
+import java.util.HashMap;
+
+public class pro1 {
+
+	public static void main(String[] args) {
+		
+		String a="The Moon is a barren, rocky world without air and water."
+				+ "It has dark lava plain on its surface."
+				+ "The Moon is filled wit craters."
+				+ "It has no light of its own."
+				+ "It gets its light from the Sun."
+				+ "The Moon keeps changing its shape as it moves round the Earth.";
+			HashMap<String, Integer> map = new HashMap<String, Integer>();
+			String[] ig = a.split("" + " ");
+
+			for (String ignore : ig) 
+			{
+				Integer count = map.get(ignore);
+			if (count == null) 
+            {
+                count = 0;
+            }
+				map.put(ignore, count + 1);
+			}
+
+			for (int i = 0; i< ig.length; i++)
+			{
+				System.out.println(ig[i]);
+			}
+			System.out.println(map);
+    }
+
+}

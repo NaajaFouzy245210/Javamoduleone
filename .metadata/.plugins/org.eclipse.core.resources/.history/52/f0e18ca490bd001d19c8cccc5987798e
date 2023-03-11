@@ -1,0 +1,26 @@
+package listDemo;
+import java.util.ArrayList;
+
+public class TestArrayList {
+
+	public static void main(String[] args) {
+		
+		ArrayList flowers=new ArrayList();
+		flowers.add("tulips");
+		flowers.add("rose");
+		flowers.add("jasmine");
+		flowers.add("cosmos");
+		flowers.add("lilly");
+		System.out.println(flowers);
+		System.out.println(flowers.size());
+		System.out.println(flowers.get(2));
+		System.out.println(flowers.contains("Lilly"));
+		flowers.add(2,"sunflower");
+		
+		for(Object obj: flowers)
+		{
+			System.out.println(obj);
+		}
+	}
+
+}

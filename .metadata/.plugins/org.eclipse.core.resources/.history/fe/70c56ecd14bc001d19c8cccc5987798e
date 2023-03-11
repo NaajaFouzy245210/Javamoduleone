@@ -1,0 +1,13 @@
+package MultiThreading;
+
+public class TestThreads {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyClass t1= new MyClass("T1");
+		Mythread t2= new Mythread("T2");
+		
+		
+	}
+
+}

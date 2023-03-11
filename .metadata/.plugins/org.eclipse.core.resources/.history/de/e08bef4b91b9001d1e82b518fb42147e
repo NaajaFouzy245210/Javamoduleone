@@ -1,0 +1,25 @@
+package Strings;
+
+public class TestString {
+
+	public static void main(String[] args) {
+		
+		byte bytes[]= {65,66,67,68,69};
+		
+		String str=new String(bytes);
+		System.out.println(str.length());
+		System.out.println(str);
+		str="welcome to ust global";
+		
+		bytes=str.getBytes();
+		for(byte b:bytes)
+		{
+			System.out.println(b);
+		}
+		
+		char chars[]= {'U','S','T','G'};
+		str=new String(chars);
+		System.out.println(str);
+	}
+
+}

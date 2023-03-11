@@ -1,0 +1,13 @@
+package oopsday3.line;
+
+import oopsday3.drawline;
+
+public class p2 implements drawline {
+
+	@Override
+	public void draw(int x, int y) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

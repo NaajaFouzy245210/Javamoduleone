@@ -1,0 +1,5 @@
+package oopsday2;
+
+public interface cariface {
+
+}

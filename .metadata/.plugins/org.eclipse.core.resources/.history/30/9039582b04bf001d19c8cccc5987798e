@@ -1,0 +1,18 @@
+package Functionalinterface;
+import java.util.function.Function;
+
+public class TestFunctionalInterface {
+	public static void main(String[] args) {
+		
+		Function <String,Integer>f=(str)->
+		{
+			return str.length();
+		};
+		System.out.println(f.apply("bunoes dias"));
+		Function <Integer,Integer>f2=(n)->
+		{
+			return n*n;
+		};
+		System.out.println(f2.apply(25));
+}
+}

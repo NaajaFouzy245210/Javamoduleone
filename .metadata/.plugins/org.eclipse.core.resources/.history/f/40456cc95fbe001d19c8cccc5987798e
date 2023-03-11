@@ -1,0 +1,40 @@
+package listDemo;
+
+import java.util.HashMap;
+
+public class pro1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="This class consists exclusively of static methods that operate"
+				+ " on or return collections. It contains polymorphic algorithms"
+				+ " that operate on collections, \"wrappers\", "
+				+ "which return a new collection backed by a specified collection, "
+				+ "and a few other odds and ends.The methods of this class all throw a NullPointerException"
+				+ " if the collections or class objects provided to them are null.The documentation for"
+				+ " the polymorphic algorithms contained in this class generally includes a brief description"
+				+ " of the implementation. Such descriptions should be regarded as "
+				+ "implementation notes, rather"
+				+ " than parts of the specification. ";
+			HashMap<String, Integer> map = new HashMap<String, Integer>();
+			String[] ignored = a.split(" ");
+			
+
+			for (String ignore : ignored) 
+			{
+				Integer count = map.get(ignore);
+			if (count == null) 
+            {
+                count = 0;
+            }
+            map.put(ignore, count + 1);
+			}
+
+			for (int i = 0; i< ignored.length; i++)
+			{
+            System.out.println(ignored[i]);
+			}
+			System.out.println(map);
+    }
+
+}

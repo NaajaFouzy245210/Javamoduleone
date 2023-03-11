@@ -1,0 +1,9 @@
+package oopsday4.statictest;
+
+public class StaticDemo2 {
+	void method()
+	{
+		System.out.println("from method");
+	}
+
+}

@@ -1,0 +1,12 @@
+package serialization.test;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+
+		Employee emp =new Employee(101,"john doe",4000);
+		
+		
+	}
+
+}

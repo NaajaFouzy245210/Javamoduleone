@@ -1,0 +1,26 @@
+package oopsday3;
+
+public class compare {
+	
+	public static void main(String args[]) {
+		 rectangle r1=new rectangle();
+		 rectangle r2 =new rectangle();
+		 
+		 triangle t1=new triangle();
+		 triangle t2=new triangle();
+		 
+		 // comparing primitives 
+		 int a=10;
+		 int b=35;
+		 
+		 boolean result = a==b; //are they equal
+		 
+		 //comparing objects
+		 //case 1. comparing references
+		 //case 2. comparing members
+		 
+		 result = r1==r2;
+		 System.out.println(result);
+	}
+
+}

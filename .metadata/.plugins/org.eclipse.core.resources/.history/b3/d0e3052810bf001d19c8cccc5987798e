@@ -1,0 +1,56 @@
+package Functionalinterface;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+
+public class FunctionTest {
+	public class TestFunctionalInterface 
+	{
+		public static void main(String[] args) 
+		{
+			
+			List<String> Strings= Arrays.asList("tamilnadu","kerala","karnataka","andrapradesh");
+			
+			
+			Function <String,Integer>f=(str)->
+			{
+				return str.length();
+			};
+			printlength(Strings,f);
+			
+			
+			Function <String,Integer>f11=(str1)->
+			{
+				return str1.length();
+			};
+		
+			printlength(Strings,f11);
+		//	printlength(Strings,f12);
+			Function <String,String> s=(str1)->{
+				return str1.toUpperCase();
+				};
+				uppercase(Strings,s);
+			
+			
+			
+			
+			for(String str : Strings)
+			{
+				System.out.println(f.apply(str));
+			}
+
+}
+
+		private static void printlength(List<String> strings, Function<String, Integer> f) {
+			// TODO Auto-generated method stub
+			
+		}
+		public static void uppercase(List<String> strings,Function<String,String> up) {
+			for(String str1: strings){
+				System.out.println(up.apply(str1));
+				}
+			}
+
+	}
+}

@@ -1,0 +1,31 @@
+package listDemo;
+
+import java.util.HashMap;
+
+public class pro1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String a="This is a world where hate is more predominent than love. myself and i";
+			HashMap<String, Integer> map = new HashMap<String, Integer>();
+			String[] ignored = a.split("");
+			
+
+			for (String ignore : ignored) 
+			{
+				Integer count = map.get(ignore);
+			if (count == null) 
+            {
+                count = 0;
+            }
+            map.put(ignore, count + 1);
+			}
+
+			for (int i = 0; i< ignored.length; i++)
+			{
+            System.out.println(ignored[i]);
+			}
+			System.out.println(map);
+    }
+
+}

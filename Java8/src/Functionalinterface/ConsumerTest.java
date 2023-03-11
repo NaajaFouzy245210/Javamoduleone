@@ -1,0 +1,30 @@
+package Functionalinterface;
+
+import java.util.function.Consumer;
+import java.util.Arrays;
+import java.util.List;
+
+public class ConsumerTest {
+	public static void main(String[] args) {
+		
+		List<String> Strings= Arrays.asList("tamilnadu","kerala","karnataka","andrapradesh","telangana");
+		
+		Consumer<String> consumer = (str)->
+		{
+			System.out.println(str);
+		};
+		consumer.accept("im doing great");
+		for(String str: Strings) {
+			
+			consumer.accept(str);
+		}
+}//end of the main		
+	
+public static void printStrings (List<String> strings , Consumer <String> c)
+		{
+			for(String str: strings)
+			{
+				c.accept(str);
+			}
+		}
+}

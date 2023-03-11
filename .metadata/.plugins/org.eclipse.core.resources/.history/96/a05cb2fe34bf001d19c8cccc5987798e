@@ -1,0 +1,28 @@
+package methodref;
+
+interface Formula{
+	public void n1();
+	
+}
+class some{
+	public static void n2() {
+		System.out.println("from n2...");
+	}
+}
+
+
+
+public class TestMethodRef {
+
+	public static void main(String[] args) {
+
+	Formula f =some ::n2;
+	f.n1();
+	
+		
+		
+		
+		
+	}
+
+}

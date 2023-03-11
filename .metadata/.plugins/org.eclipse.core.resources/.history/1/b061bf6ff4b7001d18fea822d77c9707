@@ -1,0 +1,7 @@
+package oopsday3;
+
+public class rectangle {
+
+		private double length;
+		private double breadth;
+}

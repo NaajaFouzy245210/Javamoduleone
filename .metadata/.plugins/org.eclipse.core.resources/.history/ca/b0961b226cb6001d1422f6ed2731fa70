@@ -1,0 +1,21 @@
+package oopsday1;
+
+public class Carfactory {
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Car car= new Car();
+		car.color="black";
+		car.brand="ferrari";
+		car.model="laferrari";
+		car.price=32000000;
+		
+		System.out.println(car.brand);
+		System.out.println(car.color);
+		System.out.println(car.model);
+		System.out.println(car.price);
+
+	}
+
+}

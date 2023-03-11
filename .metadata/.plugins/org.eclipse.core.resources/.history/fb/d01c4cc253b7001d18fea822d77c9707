@@ -1,0 +1,57 @@
+package oopsday2.atm;
+
+public class BankofAmerica2 implements BankingIface {
+	private Account [] accounts =new Account[5];
+	private int accountIndex=0;
+	
+	
+
+	public BankofAmerica2() {
+		
+	}
+
+	public BankofAmerica2(Account[] accounts) {
+		
+		this.accounts = accounts;
+	}
+	
+	
+
+	public Account[] getAccounts() {
+		return accounts;
+	}
+
+	public void setAccounts(Account[] accounts) {
+		this.accounts = accounts;
+	}
+	
+	public void addAccount(Account account) {
+		if(this.accountIndex<accounts.length)
+		accounts[this.accountIndex++] = account;
+		else 
+				System.out.println("operation not allowed");
+	}
+	public int transactionAccount(Account account)
+	{
+		return account;
+	}
+	@Override
+	public double withdraw(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double deposit(double amount) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double balanceEnquiry(int actno) {
+		// TODO Auto-generated method stub
+		
+		return 0;
+	}
+
+}

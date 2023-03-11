@@ -1,0 +1,35 @@
+package oopsday2;
+
+public class Car implements CarIface {
+
+	@Override
+	public void start() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void hone() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void move() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void changegear() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

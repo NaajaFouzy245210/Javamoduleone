@@ -1,0 +1,10 @@
+package oopsday1;
+
+public class Carfactory {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

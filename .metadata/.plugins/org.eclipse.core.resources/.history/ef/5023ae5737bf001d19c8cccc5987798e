@@ -1,0 +1,21 @@
+package optional;
+
+import java.util.Optional;
+
+public class TestOptional {
+
+	public static void main(String[] args) {
+		
+		String str = null;
+		Optional<String> optional = Optional.of(str);
+		
+		//System.out.println(optional.get());
+		Optional<String> optional2 =Optional.ofNullable(str);
+		
+		if(optional2.isEmpty())
+			System.out.println(optional.get());
+		else
+			System.out.println("its null");
+	}
+
+}

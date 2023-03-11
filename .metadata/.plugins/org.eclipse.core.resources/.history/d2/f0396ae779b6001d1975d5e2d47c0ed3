@@ -1,0 +1,10 @@
+package oopsday1.setget;
+
+public class Car {
+	//properties
+	private String color;
+	private double price;
+	private String brand;
+	private String model;
+	
+}

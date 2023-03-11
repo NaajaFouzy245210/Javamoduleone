@@ -1,0 +1,25 @@
+package Functionalinterface;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class BiConsumer {
+
+	public static void main(String[] args) {
+		Map<String,String> map = new HashMap<>();
+		
+		map.put("hi", "oo");
+		map.put("happy", "h");
+		map.put("what", "w");
+		
+		
+		
+		map.forEach((k,v)->{ System.out.println(k+"and"+v))};
+		
+		BiConsumer<String,String>bi=(k,v)->
+		System.out.printlnP(k+" "+v);
+		map.forEach(bi);
+		
+	};
+
+}

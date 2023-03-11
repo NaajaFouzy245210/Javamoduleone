@@ -1,0 +1,9 @@
+package oopsday3;
+
+public class triangle {
+	
+		private double s1;
+		private double s2;
+		private double s3;
+
+}

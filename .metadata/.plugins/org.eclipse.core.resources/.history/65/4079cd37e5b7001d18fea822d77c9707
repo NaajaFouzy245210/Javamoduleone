@@ -1,0 +1,59 @@
+package oopsday3;
+
+public class MathImp implements Math {
+
+	@Override
+	public int factorial(int n) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int primeornot(int n) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int add(int n, int m) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int sub(int n, int m) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int mul(int n, int m) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int div(int n, int m) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int pow(int n, int m) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int fib(int n) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int oddoreven(int n) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

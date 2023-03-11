@@ -1,0 +1,6 @@
+package oopsday3.line;
+
+public class p2 {
+	p2 x2 = new x2();
+
+}

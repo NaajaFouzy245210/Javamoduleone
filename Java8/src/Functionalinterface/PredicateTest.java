@@ -1,0 +1,33 @@
+package Functionalinterface;
+import java.util.function.Predicate;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class PredicateTest {
+
+	private static final String[] Strings = null;
+
+	public static void main(String[] args) {
+
+		List<String> Strings= Arrays.asList("tamilnadu","kerala","karnataka","andrapradesh","telangana");
+	
+		Predicate<String> p =(String str)->
+		{
+			return str.length()>8;
+		};
+		for(String str : Strings)
+		System.out.println(p.test(str));
+		desiredlength(Strings,p);
+	}
+	
+	public static void desiredlength(List<String> strings, Predicate<String> p)
+	{
+	
+		for(String str : Strings)
+			System.out.println(p.test(str));
+	}
+	
+	
+
+}

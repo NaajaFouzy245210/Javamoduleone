@@ -1,0 +1,11 @@
+package oopsday4.inheritance;
+
+public class CompanyHR {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp1=new Employee("john doe","male",24,101,"research",40000);
+
+	}
+
+}

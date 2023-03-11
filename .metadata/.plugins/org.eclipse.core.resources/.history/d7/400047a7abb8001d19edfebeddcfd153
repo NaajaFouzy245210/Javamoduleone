@@ -1,0 +1,10 @@
+package oopsday4.statictest;
+
+public sealed class TeststaticDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

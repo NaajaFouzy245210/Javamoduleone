@@ -1,0 +1,5 @@
+package interthreadone;
+
+public class ConsumerInteger {
+
+}
