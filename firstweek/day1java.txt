@@ -1,6 +1,0 @@
-class day1{
-public statis void main(String args[])
-{
-
-	system.out.println("hello");
-}
